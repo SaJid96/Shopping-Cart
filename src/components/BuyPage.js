@@ -5,7 +5,7 @@ import Axios from "axios";
 import { random, commerce } from "faker";
 
 
-const apiKey = "563492ad6f91700001000001b489e42dcb5e4672b6876b4e192a08a7";
+
 const url = "https://api.pexels.com/v1/search?query=mobile&per_page=6&page=1";
 
 const BuyPage = ({ addInCart }) => {
